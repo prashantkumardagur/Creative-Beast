@@ -1,0 +1,23 @@
+header{
+    display: flex;
+    margin-top: 100px;
+    width: 100vw;
+}
+
+.himg{
+    width: 30%;
+    padding: 0 10%;
+}
+.himg img{
+    width: 100%;
+}
+
+.hcontent{
+    width: 70%;
+    padding-right: 100px;
+}
+.hcontent h1{
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+
