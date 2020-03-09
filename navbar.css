@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,400i,700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -31,12 +33,11 @@ nav ul{
     top: 0;
     height: 100%;
     align-items: center;
-    width: 400px;
+    width: 800px;
     justify-content: space-between;
     margin: 0 50px;
     font-size: 18px;
     font-weight: bold;
-    max-width: 50%;
 }
 
 nav li{
@@ -51,4 +52,29 @@ nav a{
     color: white;
     text-decoration: none;
     cursor: default;
+}
+nav ul div{
+    background: white;
+    width: 400px;
+    height: 40px;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+nav div i{
+    color: black;
+    position: relative;
+    top: 8px;
+    margin-left: 5px;
+}
+nav div input{
+    margin-left: 15px;
+    width: 340px;
+    outline: none;
+    border: none;
+}
+nav div button{
+    background: none;
+    outline: none;
+    border: none;
+    cursor: pointer;
 }

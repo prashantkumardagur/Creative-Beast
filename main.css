@@ -1,7 +1,10 @@
 header{
     display: flex;
-    margin-top: 100px;
+    margin-top: 50px;
+    padding-top: 50px;
     width: 100vw;
+    background: url(Resources/Trash/bgtemp.jpg);
+    background-size: cover;
 }
 
 .himg{
@@ -16,6 +19,8 @@ header{
     width: 70%;
     padding-right: 100px;
     padding-bottom: 50px;
+    color: white;
+    text-shadow: 0 1px 5px #000000;
 }
 .hcontent h1{
     font-size: 60px;
@@ -27,16 +32,47 @@ header{
 }
 .hcontent button{
     padding: 5px 50px;
-    background-color: white;
+    background: #ffffff;
     color: #0652DD;
     border: 5px solid #0652DD;
     border-radius: 25px;
     font-size: 20px;
     font-weight: bold;
     cursor: pointer;
+    outline: none;
 }
 .hcontent button:hover{
     background-color: #0652DD;
     color: white;
 }
 
+/*----------------------------------------------------------------------------------------------------------*/
+
+#eventNav h1{
+    margin-left: 11vw;
+    padding-top: 50px;
+}
+
+#eventNav section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 300px;
+    width: 80%;
+    margin: auto;
+}
+
+.pemplate{
+    width: 90%;
+    height: 120px;
+    margin: auto;
+    border-radius: 10px;
+}
+.pemplate h3{
+    margin: auto;
+    text-align: center;
+    height: 90%;
+    padding-top: 30%;
+    color: white;
+    text-shadow: 0 0 5px #000000;
+}
