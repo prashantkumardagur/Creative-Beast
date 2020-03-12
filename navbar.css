@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,400i,700&display=swap');
 
+body{
+    background-color: #eeeeee;
+    width: 100%;
+    overflow-x: hidden;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -13,6 +19,7 @@ nav{
     box-shadow: 0 2px 5px rgba(0,0,0,0.2);
     background-color: #0652DD;
     color: white;
+    z-index: 500;
 }
 nav h1{
     height: 100%;
@@ -22,7 +29,7 @@ nav h1{
     cursor: default;
 }
 nav img{
-    height: 80%;
+    height: 70%;
     margin-right: 10px;
 }
 nav ul{
@@ -59,16 +66,16 @@ nav ul div{
     height: 40px;
     border-radius: 20px;
     margin-right: 20px;
+    padding-top: 4px;
+    box-sizing: border-box;
 }
 nav div i{
     color: black;
-    position: relative;
-    top: 8px;
     margin-left: 5px;
 }
 nav div input{
     margin-left: 15px;
-    width: 340px;
+    width: 345px;
     outline: none;
     border: none;
 }
