@@ -5,7 +5,6 @@ header{
     width: 100vw;
     background: url(Resources/Trash/bgtemp.jpg);
     background-size: cover;
-    cursor: default;
 }
 
 .himg{
@@ -41,10 +40,11 @@ header{
     font-weight: bold;
     cursor: pointer;
     outline: none;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.75), -1px -1px 3px rgba(255, 255, 255, 0.75) ;
 }
 .hcontent button:hover{
-    background-color: #ffffff;
-    color: #0652DD;
+    background-color: rgb(5, 60, 165);
+    border: 5px solid rgb(5, 60, 165);
 }
 
 /*----------------------------------------------------------------------------------------------------------*/
@@ -52,7 +52,7 @@ header{
 #eventNav h1{
     margin-left: 11vw;
     padding-top: 50px;
-    padding-bottom: 15px;
+    padding-bottom: 30px;
 }
 
 #eventNav section{
@@ -62,7 +62,7 @@ header{
     height: 300px;
     width: 80%;
     margin: auto;
-    padding-bottom: 50px;
+    padding-bottom: 80px;
 }
 #eventNav a{
     text-decoration: none;
@@ -95,13 +95,13 @@ header{
 
 #upcoming{
     width: 100%;
-    background-color: #000000;
+    background-color: #121212;
     color: #ffffff;
     padding-bottom: 50px;
 }
 #upcoming h1{
     color: #ffffff;
-    padding: 20px 0 30px 5vw;
+    padding: 30px 0 50px 5vw;
 }
 #upcoming h1 span{
     padding: 5px;
@@ -214,11 +214,121 @@ footer section p{
     margin: auto;
 }
 #footerContact p span{
-    padding-right: 200px;
+    padding-right: 10vw;
 }
 
 #copyright{
     color: #666666;
     font-size: 12px;
     padding: 50px 0;
+}
+
+/*------------------------------------------------------------------------------------------------------------------*/
+
+.cardblock{
+    width: 90%;
+    margin: 30px auto;
+    padding: 50px 2vw;
+}
+
+.cardblock h1{
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+.cardblock section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.cards{
+    display: block;
+    text-decoration: none;
+    background-color: #eeeeee;
+    width: 75%;
+    padding: 1vw;
+    box-shadow: 3px 3px 5px #00000080, -3px -3px 5px 1px #ffffff;
+    border-radius: 20px;
+    text-align: center;
+}
+.cards:visited{
+    color: black;
+}
+.cards:hover{
+    box-shadow: 5px 5px 10px 1px #00000080, -5px -5px 10px 3px #ffffff;
+}
+.cards h2{
+    padding: 1vh;
+    font-size: 26px;
+}
+.cards h4{
+    font-weight: normal;
+    font-size: 15px;
+    padding: 5px 0 2vh 0;
+    color: #555555;
+}
+.cards p{
+    font-size: 12px;
+    color: #222;
+}
+.cards img{
+    display: block;
+    width: 100%;
+    height: 20vh;
+    margin: auto;
+    border-radius: 10px;
+}
+.cards button{
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 1vw;
+}
+.cards:hover h2 , .cards:hover button{
+    color: #0652DD;
+}
+
+/*-----------------------------------------------------------------------------------------------------*/
+
+#reviews{
+    background: url(resources/Trash/reviewTemp.jpg);
+    background-size: cover;
+    color: white;
+    padding: 5vh 15vw;
+    text-shadow: 0 0 10px #000000;
+}
+
+#reviews h1{
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+#reviewNamer{
+    padding: 3vh 0;
+    display: grid;
+    grid-template-columns: 1fr 8fr;
+}
+
+#reviewNamer img{
+    width: 5vw;
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+}
+
+#reviews p{
+    font-size: 14px;
+    text-align: justify;
+    text-shadow: 0 0 5px #000000;
+}
+#reviews aside{
+    text-align: center;
+    padding-top: 2vh;
+}
+#reviews aside span{
+    display: inline-block;
+    width: 10px;
+    margin: 1vh;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #0652DD;
 }
