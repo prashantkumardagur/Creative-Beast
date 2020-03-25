@@ -1,0 +1,36 @@
+@media screen and (max-width: 500px){
+
+    header{
+        display: block;
+        padding-top: 20px;
+    }
+    .himg{
+        width: 30%;
+        margin: auto;
+    }
+    .hcontent{
+        width: 80%;
+        margin: auto;
+        padding: 0 0 30px 0;
+    }
+    .hcontent h1{
+        font-size: 44px;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+    .hcontent p{
+        font-size: 12px;
+        text-align: justify;
+    }
+    .hcontent h3{
+        font-size: 16px;
+        padding: 20px 0;
+    }
+    .hcontent button{
+        padding: 0px 25px;
+        font-size: 15px;
+        margin: auto;
+        display: block;
+    }
+
+}

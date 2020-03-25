@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="navbar.css">
     <link rel="stylesheet" href="main.css">
-    <script src="main.js"></script>
+    <link rel="stylesheet" href="mobMain.css">
     <link rel="icon" href="Resources/Logos/CBStudio-blue.png">
     <title>Creative Beast EMS Pvt. Ltd. - Events management services</title>
 </head>
@@ -16,8 +16,13 @@
 <body>
 
     <nav>
-        <h1><img src="Resources/Logos/CBStudio.png">CREATIVE BEAST</h1>
-        <ul>
+        <h1><img src="Resources/Logos/CBStudio.png">Creative Beast</h1>
+        <div onclick="toggleNav()">
+            <span class="navDots"></span>
+            <span class="navDots"></span>
+            <span class="navDots"></span>
+        </div>
+        <ul id="navbox">
             <div>
                 <form>
                     <input type="text" placeholder="Search">
@@ -35,11 +40,11 @@
             <img src="Resources/Logos/CBStudio.png">
         </div>
         <div class="hcontent">
-            <h1>CREATIVE BEAST</h1>
+            <h1>Creative Beast</h1>
             <p>Implementing your Creative thoughts into real action to help society with a Beast like passion, power and dedication
                 by its spectacular work to remember forever.
             </p>
-            <h3>- We Plan EVERYTHING... </h3>
+            <h3>We Plan EVERYTHING that can bring you JOY </h3>
             <button>PLAN your Event</button>
         </div>
     </header>
@@ -157,27 +162,105 @@
 
     <div id="reviews">
         <h1>Reviews From Our Clients</h1>
-        <div  id="reviewNamer">
-            <img src="resources/Trash/celeb-complete-Copy.jpg">
-            <div>
-                <h2>Name of person</h2>
-                <pre>Reputation, Location</pre>
-            </div>    
-        </div>
-        <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos harum reprehenderit assumenda odit nihil fuga. Reprehenderit obcaecati 
-            porro quos iusto sapiente possimus facere assumenda saepe enim pariatur, quidem animi reiciendis delectus ullam unde, praesentium 
-            nihil earum eius! Assumenda ea, doloribus, atque vel aliquam nam, modi perspiciatis ad ratione deleniti animi soluta. Officiis, 
-            asperiores nostrum temporibus soluta impedit ad et quo quaerat repellendus. Consequuntur, optio quod. Ipsa fugiat incidunt molestiae, 
-            tempora dolor optio animi, totam laboriosam ipsum voluptatem ratione reiciendis soluta eaque iusto! Vitae nemo dignissimos quaerat, 
-            laborum inventore eaque, autem magnam nesciunt officiis aliquam ipsam mollitia distinctio repellendus sed quas.
-        </p>
-        <aside><span></span><span></span><span></span></aside>
+        <section>
+            <main id="revMain">
+                <div class="review">
+                    <div  class="reviewNamer">
+                        <img src="resources/Trash/celeb-complete-Copy.jpg">
+                        <div>
+                            <h2>Name of person p1</h2>
+                            <pre>Reputation, Location</pre>
+                        </div>    
+                    </div>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos harum reprehenderit assumenda odit nihil fuga. Reprehenderit obcaecati 
+                        porro quos iusto sapiente possimus facere assumenda saepe enim pariatur, quidem animi reiciendis delectus ullam unde, praesentium 
+                        nihil earum eius! Assumenda ea, doloribus, atque vel aliquam nam, modi perspiciatis ad ratione deleniti animi soluta. Officiis, 
+                        asperiores nostrum temporibus soluta impedit ad et quo quaerat repellendus. Consequuntur, optio quod. Ipsa fugiat incidunt molestiae, 
+                        tempora dolor optio animi, totam laboriosam ipsum voluptatem ratione reiciendis soluta eaque iusto! Vitae nemo dignissimos quaerat, 
+                        laborum inventore eaque, autem magnam nesciunt officiis aliquam ipsam mollitia distinctio repellendus sed quas.
+                    </p>
+                </div>
+                <div class="review">
+                    <div  class="reviewNamer">
+                        <img src="resources/Trash/celeb-complete-Copy.jpg">
+                        <div>
+                            <h2>Name of person p2</h2>
+                            <pre>Reputation, Location</pre>
+                        </div>    
+                    </div>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos harum reprehenderit assumenda odit nihil fuga. Reprehenderit obcaecati 
+                        porro quos iusto sapiente possimus facere assumenda saepe enim pariatur, quidem animi reiciendis delectus ullam unde, praesentium 
+                        nihil earum eius! Assumenda ea, doloribus, atque vel aliquam nam, modi perspiciatis ad ratione deleniti animi soluta. Officiis, 
+                        asperiores nostrum temporibus soluta impedit ad et quo quaerat repellendus. Consequuntur, optio quod. Ipsa fugiat incidunt molestiae, 
+                        tempora dolor optio animi, totam laboriosam ipsum voluptatem ratione reiciendis soluta eaque iusto! Vitae nemo dignissimos quaerat, 
+                        laborum inventore eaque, autem magnam nesciunt officiis aliquam ipsam mollitia distinctio repellendus sed quas.
+                    </p>
+                </div>
+                <div class="review">
+                    <div  class="reviewNamer">
+                        <img src="resources/Trash/celeb-complete-Copy.jpg">
+                        <div>
+                            <h2>Name of person p3</h2>
+                            <pre>Reputation, Location</pre>
+                        </div>    
+                    </div>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos harum reprehenderit assumenda odit nihil fuga. Reprehenderit obcaecati 
+                        porro quos iusto sapiente possimus facere assumenda saepe enim pariatur, quidem animi reiciendis delectus ullam unde, praesentium 
+                        nihil earum eius! Assumenda ea, doloribus, atque vel aliquam nam, modi perspiciatis ad ratione deleniti animi soluta. Officiis, 
+                        asperiores nostrum temporibus soluta impedit ad et quo quaerat repellendus. Consequuntur, optio quod. Ipsa fugiat incidunt molestiae, 
+                        tempora dolor optio animi, totam laboriosam ipsum voluptatem ratione reiciendis soluta eaque iusto! Vitae nemo dignissimos quaerat, 
+                        laborum inventore eaque, autem magnam nesciunt officiis aliquam ipsam mollitia distinctio repellendus sed quas.
+                    </p>
+                </div>
+            </main>
+        </section>
+        <aside>
+            <span class="revNav" onclick="revAnimation(1)"></span>
+            <span class="revNav" onclick="revAnimation(2)"></span>
+            <span class="revNav" onclick="revAnimation(3)"></span>
+        </aside>
     </div>
 
     <div class="cardblock">
-        <h1>Our Best Events...</h1>
+        <h1>Our Past Events...</h1>
         <section>
+            <a class="cards" href="#">
+                <h4>COLLEGE EVENT</h4>
+                <img src="Resources/Trash/celeb-complete.jpg">
+                <h2>Event Name</h2>
+                <p>Lovely Professional University</p>
+                <p>22 March 2020</p>
+                <button>KNOW MORE</button>
+            </a>
+            <a class="cards" href="#">
+                <h4>COLLEGE EVENT</h4>
+                <img src="Resources/Trash/celeb-complete.jpg">
+                <h2>Event Name</h2>
+                <p>Lovely Professional University</p>
+                <p>22 March 2020</p>
+                <button>KNOW MORE</button>
+            </a>
+            <a class="cards" href="#">
+                <h4>COLLEGE EVENT</h4>
+                <img src="Resources/Trash/celeb-complete.jpg">
+                <h2>Event Name</h2>
+                <p>Lovely Professional University</p>
+                <p>22 March 2020</p>
+                <button>KNOW MORE</button>
+            </a>
+            <a class="cards" href="#">
+                <h4>COLLEGE EVENT</h4>
+                <img src="Resources/Trash/celeb-complete.jpg">
+                <h2>Event Name</h2>
+                <p>Lovely Professional University</p>
+                <p>22 March 2020</p>
+                <button>KNOW MORE</button>
+            </a>
+        </section>
+        <section id="compOnly">
             <a class="cards" href="#">
                 <h4>COLLEGE EVENT</h4>
                 <img src="Resources/Trash/celeb-complete.jpg">
@@ -218,7 +301,7 @@
         <div id="footerLogo">
             <img src="Resources/Logos/CBStudio-blue.png">
         </div>
-        <h1>CREATIVE BEAST</h1>
+        <h1>Creative Beast</h1>
         <h3>-Turning Small Ideas Into BIG...</h3>
         <hr/>
         <section>
@@ -247,6 +330,7 @@
             <p id="copyright">© Copyright 2020 creativebeastevents.com (Creative Beast EMS Pvt. Ltd. - Events management services) - All Rights Reserved</p>
         </div>
     </footer>
-
+    <script src="main.js"></script>
+    <script src="nav.js"></script>
 </body>
 </html>
