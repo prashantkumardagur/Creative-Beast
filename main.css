@@ -164,17 +164,34 @@ header{
 
 .cardblock h1{
     font-size: 40px;
+    padding-left: 2vw;
 }
 .cardblock section{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     padding-top: 50px;
 }
+.cardblock > a{
+    display: block;
+    width: 15vw;
+    background-color: #0652DD;
+    color: white;
+    margin: 30px auto 0 auto;
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    outline: none;
+}
+
 .cards{
     display: block;
     text-decoration: none;
     background-color: #eeeeee;
     width: 75%;
+    margin: auto;
     padding: 1vw;
     box-shadow: 3px 3px 5px #00000080, -3px -3px 5px 1px #ffffff;
     border-radius: 20px;
@@ -189,6 +206,7 @@ header{
 .cards h2{
     padding: 1vh;
     font-size: 26px;
+    color: black;
 }
 .cards h4{
     font-weight: normal;
@@ -214,6 +232,7 @@ header{
     cursor: pointer;
     font-weight: bold;
     padding: 1vw;
+    color: black;
 }
 .cards:hover h2 , .cards:hover button{
     color: #0652DD;
@@ -251,6 +270,7 @@ header{
     font-size: 14px;
     text-align: justify;
     text-shadow: 0 0 5px #000000;
+    padding: 0 10px;
 }
 #reviews aside{
     text-align: center;

@@ -123,7 +123,7 @@
     }
 
     .cardblock h1{
-        font-size: 24px;
+        font-size: 28px;
         text-align: center;
     }
 
@@ -131,6 +131,13 @@
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr;
         padding-top: 20px;
+    }
+
+    .cardblock > a{
+        width: 40vw;
+        font-size: 14px;
+        margin: 0 auto 40px auto;
+        padding: 5px;
     }
 
     .cards{
@@ -193,7 +200,6 @@
     }
     #reviews p{
         font-size: 10px;
-        padding: 0 10px;
     }
     #revMain{
         height: 380px;
