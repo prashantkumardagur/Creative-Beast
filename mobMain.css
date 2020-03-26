@@ -182,6 +182,7 @@
     .reviewNamer img{
         display: block;
         width: 20vw;
+        height: 20vw;
         margin: auto;
     }
     .reviewNamer pre{
