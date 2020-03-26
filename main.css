@@ -222,7 +222,7 @@ header{
 /*-----------------------------------------------------------------------------------------------------*/
 
 #reviews{
-    background: #222;
+    background: url(Resources/Trash/bgtemp.jpg);
     background-size: cover;
     color: white;
     padding: 5vh 15vw;
