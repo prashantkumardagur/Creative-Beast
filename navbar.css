@@ -92,8 +92,8 @@ nav ul div button{
 }
 
 nav > div {
-    right: 10px;
-    top: 5px;
+    right: 15px;
+    top: 10px;
     position: absolute;
     border: 2px solid white;
     padding: 1px;
@@ -184,7 +184,7 @@ footer section p{
 @media screen and (max-width: 500px){
 
     nav{
-        height: 40px;
+        height: 50px;
     }
 
     nav h1{
@@ -198,6 +198,7 @@ footer section p{
     nav ul{
         width: 90vw;
         display: grid;
+        grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr;
         top: -400px;
         padding: 10px 20px;
@@ -210,7 +211,7 @@ footer section p{
         z-index: -1;
     }
     nav ul div{
-        width: 150%;
+        width: 100%;
         margin: 10px 0;
 
     }
@@ -223,7 +224,7 @@ footer section p{
         width: 82%;
     }
     nav li{
-        width: 150%;
+        width: 80%;
     }
 
     /*----------------------------------------------------------------*/
@@ -261,7 +262,7 @@ footer section p{
     #followLinks div{
         padding: 0;
         text-align: center;
-        font-size: 24px;
+        font-size: 30px;
         letter-spacing: 8px;
     }
     #footerContact{

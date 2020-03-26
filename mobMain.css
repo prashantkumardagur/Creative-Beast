@@ -193,9 +193,10 @@
     }
     #reviews p{
         font-size: 10px;
+        padding: 0 10px;
     }
     #revMain{
-        height: 350px;
+        height: 380px;
     }
 
 }
