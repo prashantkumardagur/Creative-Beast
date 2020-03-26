@@ -60,10 +60,9 @@ header{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    height: 300px;
     width: 80%;
     margin: auto;
-    padding-bottom: 80px;
+    padding-bottom: 50px;
 }
 #eventNav a{
     text-decoration: none;
@@ -73,6 +72,7 @@ header{
     height: 120px;
     margin: auto;
     border-radius: 10px;
+    margin-bottom: 30px;
 }
 
 .pemplate{
@@ -222,7 +222,7 @@ header{
 /*-----------------------------------------------------------------------------------------------------*/
 
 #reviews{
-    background: url(resources/Trash/reviewTemp.jpg);
+    background: url(resources/Trash/reviewBg.jpg);
     background-size: cover;
     color: white;
     padding: 5vh 15vw;

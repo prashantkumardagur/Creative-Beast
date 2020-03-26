@@ -226,5 +226,58 @@ footer section p{
         width: 150%;
     }
 
+    /*----------------------------------------------------------------*/
+
+    footer{
+        margin-top: 20px;
+    }
+    #footerLogo{
+        height: 30px;
+        margin-bottom: 30px;
+    }
+    #footerLogo img{
+        width: 60px;
+    }
+    footer h1{
+        font-size: 30px;
+    }
+    footer h3{
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+    footer section{
+        padding: 15px 0;
+        grid-template-columns: 1fr;
+        grid-template-rows: 9fr 2fr;
+    }
+    footer section p{
+        font-size: 11px;
+        padding: 10px 5px;
+    }
+    #followLinks h2{
+        font-size: 16px;
+        text-align: center;
+    }
+    #followLinks div{
+        padding: 0;
+        text-align: center;
+        font-size: 24px;
+        letter-spacing: 8px;
+    }
+    #footerContact{
+        text-align: center;
+    }
+    #footerContact h2{
+        font-size: 16px;
+    }
+    #footerContact p span{
+        display: block;
+        padding: 0;
+        font-size: 12px;
+    }
+    #copyright{
+        font-size: 9px;
+        padding: 25px 0;
+    }
 
 }
