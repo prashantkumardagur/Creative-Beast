@@ -147,8 +147,8 @@
         box-shadow: 2px 2px 3px #00000080, -2px -2px 3px 1px #ffffff;
     }
     .cards h2{
-        font-size: 20px;
         padding: 1vw;
+        font-size: 18px;
     }
     .cards h4{
         font-size: 12px;
@@ -159,6 +159,7 @@
     }
     .cards button{
         font-size: 12px;
+        margin-top: 0;
     }
     .cards img{
         width: 90%;
