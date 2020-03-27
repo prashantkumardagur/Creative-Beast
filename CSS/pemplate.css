@@ -1,0 +1,75 @@
+
+#eventNav h1{
+    margin-left: 11vw;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+#eventNav section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 80%;
+    margin: auto;
+    padding-bottom: 50px;
+}
+#eventNav a{
+    text-decoration: none;
+    display: block;
+    outline: none;
+    width: 90%;
+    height: 120px;
+    margin: auto;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.pemplate{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+.pemplate:hover{
+    background-color: #00000080;
+}
+.pemplate h3{
+    margin: auto;
+    text-align: center;
+    height: 90%;
+    padding-top: 30%;
+    color: white;
+    text-shadow: 0 0 5px #000000;
+}
+
+
+/*-----------------------------------------------------------------*/
+
+
+@media screen and (max-width: 500px){
+    
+    #eventNav h1{
+        margin: auto;
+        width: 80%;
+        font-size: 20px;
+        padding: 30px 0 10px 0;
+    }
+
+    #eventNav section{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        width: 90%;
+        padding-bottom: 30px;
+    }
+
+    #eventNav a{
+        height: 80px;
+        margin-bottom: 10%;
+    }
+
+    .pemplate h3{
+        padding: 0;
+        font-size: 15px;
+        padding-top: 20%;        
+    }
+
+}

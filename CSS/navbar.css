@@ -112,74 +112,6 @@ nav > div {
 
 /*---------------------------------------------------------------------------------------------------------------*/
 
-footer{
-    background-color: #ced6e0;
-    margin-top: 50px;
-}
-#footerLogo{
-    background-color: #eeeeee;
-    height: 50px;
-    text-align: center;
-    margin-bottom: 50px;
-}
-#footerLogo img{
-    width: 100px;
-}
-footer h1{
-    text-align: center;
-    font-size: 40px;
-    font-family: 'lobster two';
-}
-footer h3{
-    text-align: center;
-    margin-bottom: 30px;
-}
-footer hr{
-    width: 90%;
-    margin: auto;
-    border: 0;
-    height: 1px;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
-}
-
-footer section{
-    display: grid;
-    width: 80%;
-    margin: 0 auto;
-    padding: 30px 0;
-    grid-template-columns: 5fr 2fr;
-    color: #333333;
-}
-footer section p{
-    text-align: justify;
-    padding: 5px 30px 5px 0 ;
-    font-size: 13px;
-}
-
-#followLinks h2{
-    font-size: 24px;
-    padding-left: 1vw;
-    color: #111111;
-}
-#followLinks div{
-    font-size: 36px;
-    padding-left: 1vw;
-    letter-spacing: 5px;
-}
-
-#footerContact{
-    width: 80%;
-    margin: auto;
-}
-#footerContact p span{
-    padding-right: 10vw;
-}
-
-#copyright{
-    color: #666666;
-    font-size: 12px;
-    padding: 50px 0;
-}
 
 @media screen and (max-width: 500px){
 
@@ -225,60 +157,6 @@ footer section p{
     }
     nav li{
         width: 80%;
-    }
-
-    /*----------------------------------------------------------------*/
-
-    footer{
-        margin-top: 20px;
-    }
-    #footerLogo{
-        height: 30px;
-        margin-bottom: 30px;
-    }
-    #footerLogo img{
-        width: 60px;
-    }
-    footer h1{
-        font-size: 30px;
-    }
-    footer h3{
-        font-size: 14px;
-        margin-bottom: 15px;
-    }
-    footer section{
-        padding: 15px 0;
-        grid-template-columns: 1fr;
-        grid-template-rows: 4fr 1fr;
-    }
-    footer section p{
-        font-size: 11px;
-        padding: 10px 5px;
-    }
-    #followLinks h2{
-        font-size: 16px;
-        text-align: center;
-    }
-    #followLinks div{
-        padding: 0;
-        text-align: center;
-        font-size: 30px;
-        letter-spacing: 8px;
-    }
-    #footerContact{
-        text-align: center;
-    }
-    #footerContact h2{
-        font-size: 16px;
-    }
-    #footerContact p span{
-        display: block;
-        padding: 0;
-        font-size: 12px;
-    }
-    #copyright{
-        font-size: 9px;
-        padding: 25px 0;
-    }
+    }  
 
 }

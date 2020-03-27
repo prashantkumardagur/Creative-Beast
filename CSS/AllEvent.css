@@ -1,0 +1,77 @@
+header{
+    text-align: center;
+    background: url(../Resources/Trash/bgtemp.jpg);
+    background-size: contain;
+    color: white;
+    text-shadow: 0 0 10px black;
+    padding: 60px 10% 0 10%;
+}
+header a{
+    display: block;
+    padding: 10px;
+    background-color: #0652DD;
+    width: 20vw;
+    margin: 30px auto;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-shadow: none;
+    border-radius: 25px;
+    font-size: 20px;
+    box-shadow: 0 0 30px 3px black;
+}
+header h1{
+    font-size: 40px;
+    padding-top: 30px;
+}
+header div{
+    height: 50px;
+}
+header img{
+    height: 100px;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------------------*/
+
+#namer{
+    margin-top: 45px;
+    font-family: 'lobster two';
+    text-align: center;
+    font-size: 40px;
+
+}
+
+/*------------------------------------------------------------------------------------------------------------------------------------------*/
+
+@media screen and (max-width: 500px){
+
+    header{
+        padding: 50px 5% 0 5%;
+        background-size: cover;
+    }
+    header h1{
+        font-size: 20px;
+    }
+    header h2{
+        font-size: 16px;
+    }
+    header a{
+        font-size: 14px;
+        width: 40vw;
+        margin: 15px auto;
+        padding: 5px;
+    }
+    header div{
+        height: 30px;
+    }
+    header img{
+        height: 60px;
+    }
+
+    #namer{
+        margin-top: 35px;
+        font-size: 22px;
+    }
+
+
+}
