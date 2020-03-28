@@ -168,5 +168,8 @@ nav > div {
     nav li{
         width: 80%;
     }  
+    nav ul div i{
+        margin-left: 10px;
+    }
 
 }

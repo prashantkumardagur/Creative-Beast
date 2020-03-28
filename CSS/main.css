@@ -3,7 +3,7 @@ header{
     margin-top: 40px;
     padding-top: 60px;
     width: 100vw;
-    background: url(../Resources/Trash/bgtemp.jpg);
+    background: url(../Resources/others/bgtemp.jpg);
     background-size: cover;
 }
 .himg{
@@ -113,7 +113,7 @@ header{
 
 
 #reviews{
-    background: url(../Resources/Trash/bgtemp.jpg);
+    background: url(../Resources/others/bgtemp.jpg);
     background-size: cover;
     color: white;
     padding: 5vh 15vw;
