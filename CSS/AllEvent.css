@@ -20,6 +20,9 @@ header a{
     font-size: 20px;
     box-shadow: 0 0 30px 3px black;
 }
+header a:hover{
+    background-color: rgb(9, 59, 152);
+}
 header h1{
     font-size: 40px;
     padding-top: 30px;

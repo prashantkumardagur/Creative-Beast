@@ -29,13 +29,21 @@ nav h1{
     display: flex;
     align-items: center;
     margin-left: 30px;
-    cursor: default;
     font-family: 'lobster two';
     font-size: 30px;
+}
+nav h1 a{
+    display: block;
+    height: 100%;
+    color: white;
+    text-decoration: none;
+    font-family: 'lobster two';
 }
 nav img{
     height: 70%;
     margin-right: 10px;
+    position: relative;
+    top: 10px
 }
 nav ul{
     display: flex;
@@ -60,7 +68,7 @@ nav li{
 nav li:hover{
     border: 2px solid white;
 }
-nav a{
+nav ul a{
     color: white;
     text-decoration: none;
     cursor: default;
@@ -118,16 +126,17 @@ nav > div {
     nav{
         height: 50px;
     }
-
     nav h1{
         font-size: 24px;
         margin-left: 15px;
+    }
+    nav h1 img{
+        top: 8px;
     }
 
     nav > div {
         display: block;
     }
-
     nav ul{
         width: 90vw;
         display: grid;
