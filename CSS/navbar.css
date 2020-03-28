@@ -13,6 +13,21 @@ body{
     font-family: 'poppins';
 }
 
+#loading{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    padding-top: 30vh;
+    background-color: #eeeeee;
+    z-index: 600;
+    text-align: center;
+}
+#loading img{
+    width: 20vh;
+}
+
 
 nav{
     height: 60px;
