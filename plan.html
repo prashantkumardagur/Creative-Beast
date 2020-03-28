@@ -60,7 +60,7 @@
                 <p>Email us for requesting event management and giving your upcoming event details.</p>
                 <h3>Our Mail Address</h3>
                 <p>thecreativebeastlpu@gmail.com</p>
-                <a href="https://mail.google.com/mail/u/0/?fs=1&view=cm&shva=1&cc=thecreativebeastlpu@gmail.com&tf=1" target="_blank">Mail Now</a>
+                <a id="emailA" href="https://mail.google.com/mail/u/0/?fs=1&view=cm&shva=1&cc=thecreativebeastlpu@gmail.com&tf=1" target="_blank">Mail Now</a>
             </div>
         </section>
     </main>
@@ -101,5 +101,8 @@
     </footer>
 
     <script src="js/nav.js"></script>
+    <script>
+        if(screen.width<500) document.getElementById("emailA").href="mailto: thecreativebeastlpu@gmail.com";
+    </script>
 </body>
 </html>
