@@ -87,6 +87,8 @@ nav ul a{
     color: white;
     text-decoration: none;
     cursor: default;
+    display: inline-block;
+    width: 100%;
 }
 nav ul div{
     background: white;
