@@ -73,6 +73,7 @@ nav ul{
     margin: 0 50px;
     font-size: 18px;
     font-weight: bold;
+    background-color: #0652DD;
 }
 
 nav li{
@@ -105,6 +106,7 @@ nav ul div i{
 }
 nav ul div input{
     margin-left: 15px;
+    background: none;
     width: 345px;
     outline: none;
     border: none;
@@ -162,7 +164,6 @@ nav > div {
         top: -400px;
         padding: 10px 20px;
         margin: 0;
-        background-color: #0652DD;
         height: auto;
         right: auto;
         transition-timing-function: ease;
