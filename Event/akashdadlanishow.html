@@ -41,7 +41,12 @@
     </nav>
 
     <main>
-        <img src="../Resources/others/celeb-complete.jpg" alt="Akash dadlani show image">
+        <img id="mob" src="Backgrounds/akashdadlani.jpeg" alt="Akash dadlani show image">
+        
+        <script>
+            if(screen.width < 500) document.getElementById("mob").src="Backgrounds/akashdadlani-mob.jpeg";
+        </script>
+
         <h1>AKASH DADLANI SHOW</h1>
         <!-- <h2>- Category -</h2> -->
         <p>( 1 November 2019 to 9 Nov 2019 )</p>
@@ -65,6 +70,7 @@
                 <a href="#photoviewer"><img class="images" onclick="view(4)" src="../Resources/others/celeb-complete.jpg" alt=""></a>
                 <a href="#photoviewer"><img class="images" onclick="view(5)" src="../Resources/others/celeb-complete.jpg" alt=""></a>
                 <a href="#photoviewer"><img class="images" onclick="view(6)" src="../Resources/others/celeb-complete.jpg" alt=""></a>
+                <a href="#photoviewer"><img class="images" onclick="view(7)" src="../Resources/others/celeb-complete.jpg" alt=""></a>
             </section>
         </div>
 

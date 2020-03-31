@@ -41,7 +41,12 @@
     </nav>
 
     <main>
-        <img src="../Resources/others/celeb-complete.jpg" alt="INSC image">
+        <img id="mob" src="Backgrounds/insc.jpeg" alt="INSC image">
+        
+        <script>
+            if(screen.width < 500) document.getElementById("mob").src="Backgrounds/insc-mob.jpeg";
+        </script>
+
         <h1>106th INDIAN NATIONAL SCIENCE CONGRESS</h1>
         <!-- <h2>- Category -</h2> -->
         <p>( 1 January 2019 to 7 January 2019 )</p>
@@ -90,36 +95,36 @@
     <div class="cardblock">
         <h1>Related Events</h1>
         <section>
-            <a class="cards" href="Event/unitednations.html">
+            <a class="cards" href="netaapplaunch.html">
+                <h4>CULTURAL EVENT</h4>
+                <img src="thumbnail/netaapp.jpeg" alt="neta app launching event">
+                <h2>Neta App Launching</h2>
+                <p>Lovely Professional University</p>
+                <p>22 August 2018</p>
+                <button>KNOW MORE</button>
+            </a>
+            <a class="cards" href="unitednations.html">
                 <h4>MODELLING SHOW</h4>
-                <img src="../Resources/others/celeb-complete.jpg" alt="United Nations Peagent event image">
+                <img src="thumbnail/unitednations.jpeg" alt="united nations peagent event">
                 <h2>United Nations Peagent</h2>
                 <p>Lovely Professional University</p>
                 <p>1 Nov 2019 to 9 Nov 2019</p>
                 <button>KNOW MORE</button>
             </a>
-            <a class="cards" href="#">
-                <h4>CONCERT</h4>
-                <img src="../Resources/others/celeb-complete.jpg" alt="B. Praak concert image">
-                <h2>B. Praak Show</h2>
-                <p>Lovely Professional University</p>
-                <p>6 March 2020</p>
-                <button>KNOW MORE</button>
-            </a>
-            <a class="cards" href="#">
+            <a class="cards" href="fanfest.html">
                 <h4>COLLEGE EVENT</h4>
-                <img src="../Resources/others/celeb-complete.jpg" alt="fanfest event image">
+                <img src="thumbnail/fanfest.jpeg" alt="fanfest">
                 <h2>Fanfest</h2>
                 <p>Lovely Professional University</p>
                 <p>12 October 2019</p>
                 <button>KNOW MORE</button>
             </a>
-            <a class="cards" href="#">
-                <h4>CULTURAL EVENT</h4>
-                <img src="../Resources/others/celeb-complete.jpg" alt="Hunar relaoded event image">
-                <h2>Hunar Reloaded</h2>
+            <a class="cards" href="inferno.html">
+                <h4>COLLEGE EVENT</h4>
+                <img src="thumbnail/inferno.jpg" alt="inferno event">
+                <h2>Inferno</h2>
                 <p>Lovely Professional University</p>
-                <p>3 Sept 2019 to 15 Oct 2019</p>
+                <p>14 February 2019</p>
                 <button>KNOW MORE</button>
             </a>
         </section>
