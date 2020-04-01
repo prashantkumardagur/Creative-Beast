@@ -176,7 +176,7 @@ section{
     padding: 40px 0;
     background-color: black;
     color: white;
-    /* display: none; */
+    display: none;
 }
 #player{
     display: block;
