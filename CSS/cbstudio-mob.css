@@ -47,7 +47,7 @@
     main{
         margin-bottom: 60px ;
     }
-    main h1{
+    main > h1{
         font-size: 26px;
         padding: 40px 0 20px 0;
     }
@@ -74,11 +74,35 @@
     }
     /*-----------------------------------------------*/
     #playerdiv{
-        padding: 20px 0;
+        padding: 30px 0;
     }
     #player{
         width: 96vw;
         height: 54vw;
     }
+
+    #vidinfo{
+        padding: 10px 5vw;
+        text-align: center;
+    }
+    #vidinfo h1{
+        font-size: 26px;
+    }
+    #vidinfo h2{
+        font-size: 19px;
+    }
+    #vidinfo p{
+        font-size: 13px;
+    }
+    #vidinfo h3{
+        font-size: 16px;
+    }
+    main aside a{
+        font-size: 18px;
+    }
+    main aside{
+        margin-top: 30px;
+    }
+
 
 }

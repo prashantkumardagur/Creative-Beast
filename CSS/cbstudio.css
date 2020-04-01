@@ -129,7 +129,7 @@ header h5{
 main{
     margin-bottom: 100px;
 }
-main h1{
+main > h1{
     color: white;
     text-align: center;
     font-size: 40px;
@@ -175,6 +175,7 @@ section{
 #playerdiv{
     padding: 40px 0;
     background-color: black;
+    color: white;
     display: none;
 }
 #player{
@@ -183,4 +184,34 @@ section{
     width: 64vw;
     height: 36vw;
     margin: auto;
+}
+#vidinfo{
+    padding: 20px 18vw;
+}
+#vidinfo h1{
+    font-size: 34px;
+    color: red;
+}
+#vidinfo h2{
+    font-size: 20px;
+}
+#vidinfo p{
+    font-size: 15px;
+}
+#vidinfo h3{
+    font-size: 18px;
+    padding-top: 10px;
+    color: red;
+}
+main aside{
+    text-align: center;
+    margin-top: 40px;
+}
+main aside a{
+    font-size: 20px;
+    color: red;
+    padding: 10px 20px;
+}
+main aside a i{
+    font-size: 26px;
 }
