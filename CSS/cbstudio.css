@@ -127,7 +127,13 @@ header h5{
 }
 /*---------------------------------------------------------------------------*/
 main{
-    margin: 100px 0;
+    margin-bottom: 100px;
+}
+main h1{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    padding: 60px 0 25px 0;
 }
 section{
     padding: 0 5%;
@@ -139,6 +145,7 @@ section{
     padding: 20px 5%;
     margin: 0 5px;
     font-family: 'roboto';
+    text-decoration: none;
 }
 .vidcard:hover{
     background-color: #111111;
@@ -158,8 +165,22 @@ section{
 }
 .vidcard p{
     font-size: 16px;
+    color: white;
 }
 .vidcard pre{
     font-size: 13px;
     color: #aaaaaa;
+}
+/*------------------------------------------------------------------*/
+#playerdiv{
+    padding: 40px 0;
+    background-color: black;
+    display: none;
+}
+#player{
+    display: block;
+    background-color: white;
+    width: 64vw;
+    height: 36vw;
+    margin: auto;
 }
