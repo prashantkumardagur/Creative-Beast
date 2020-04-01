@@ -54,7 +54,16 @@
         </ul>
     </nav>
 
-    <header style="background: url(../Resources/backgrounds/modelling.jpg); background-size: cover;">
+    <header id="mob" style="background: url(../Resources/backgrounds/modelling.jpg); background-size: cover;">
+
+        <script>
+            if(screen.width < 500) {
+                var bg=document.getElementById("mob");
+                bg.style.background="url(../Resources/backgrounds/modelling-mob.jpg)";
+                bg.style.backgroundSize="cover";
+            }
+        </script>
+
         <h1>MODELLING SHOWS</h1>
         <p>
             Style is the way to say who you are without even need to speak. Make modelling and fashion events to be an unforgettable thrilling occasion 

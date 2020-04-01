@@ -54,7 +54,17 @@
         </ul>
     </nav>
 
-    <header style="background: url(../Resources/backgrounds/anniversary.jpg); background-size: cover;">
+    <header id="mob" style="background: url(../Resources/backgrounds/anniversary.jpg); background-size: cover;">
+
+        <script>
+            if(screen.width < 500) {
+                var bg=document.getElementById("mob");
+                bg.style.background="url(../Resources/backgrounds/anniversary-mob.jpg)";
+                bg.style.backgroundSize="cover";
+            }
+        </script>
+
+
         <h1>ANNIVERSARY EVENT</h1>
         <p>
             Remembering the yesterday, plan your tomorrow and celebrate your present with your anniversary with excellence. Make this remarkable occasion 

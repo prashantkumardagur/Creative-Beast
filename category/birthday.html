@@ -54,7 +54,17 @@
         </ul>
     </nav>
 
-    <header style="background: url(../Resources/backgrounds/birthday.jpg); background-size: cover;">
+    <header id="mob" style="background: url(../Resources/backgrounds/birthday.jpg); background-size: cover;">
+
+        <script>
+            if(screen.width < 500) {
+                var bg=document.getElementById("mob");
+                bg.style.background="url(../Resources/backgrounds/birthday-mob.jpg)";
+                bg.style.backgroundSize="cover";
+            }
+        </script>
+
+
         <h1>BIRTHDAYS</h1>
         <p>
             Someone once said, "the more you praise and celebrate the life, the more there is in life to celebrate." Birthday are one in a year to 

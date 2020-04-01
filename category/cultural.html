@@ -54,7 +54,16 @@
         </ul>
     </nav>
 
-    <header style="background: url(../Resources/backgrounds/cultural.jpg); background-size: cover;">
+    <header id="mob" style="background: url(../Resources/backgrounds/cultural.jpg); background-size: cover;">
+
+        <script>
+            if(screen.width < 500) {
+                var bg=document.getElementById("mob");
+                bg.style.background="url(../Resources/backgrounds/cultural-mob.jpg)";
+                bg.style.backgroundSize="cover";
+            }
+        </script>
+
         <h1>CULTURAL EVENTS</h1>
         <p>
             The greatness of a culture can be found in its festival and events where people celebrate every moment in fullest. Make every Cultural show to 

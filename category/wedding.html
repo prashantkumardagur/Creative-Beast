@@ -56,7 +56,16 @@
         </ul>
     </nav>
 
-    <header style="background: url(../Resources/backgrounds/wedding.jpg); background-size: cover;">
+    <header id="mob" style="background: url(../Resources/backgrounds/wedding.jpg); background-size: cover;">
+
+        <script>
+            if(screen.width < 500) {
+                var bg=document.getElementById("mob");
+                bg.style.background="url(../Resources/backgrounds/wedding-mob.jpg)";
+                bg.style.backgroundSize="cover";
+            }
+        </script>
+
         <h1>WEDDING EVENT</h1>
         <p>
             Marriage is like watching the colours of the leaves in the fall; ever-changing and more stunningly beautiful with each passing moment. 

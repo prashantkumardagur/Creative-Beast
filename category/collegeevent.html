@@ -54,7 +54,16 @@
         </ul>
     </nav>
 
-    <header style="background: url(../Resources/backgrounds/clgevent.jpg); background-size: cover;">
+    <header id="mob" style="background: url(../Resources/backgrounds/clgevent.jpg); background-size: cover;">
+
+        <script>
+            if(screen.width < 500) {
+                var bg=document.getElementById("mob");
+                bg.style.background="url(../Resources/backgrounds/clgevent-mob.jpg)";
+                bg.style.backgroundSize="cover";
+            }
+        </script>
+
         <h1>COLLEGE EVENTS</h1>
         <p>
             The most successful event is the one that archives your goals and exceeds your expectation. Make your college event an unforgettable 

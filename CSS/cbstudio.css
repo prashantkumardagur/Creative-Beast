@@ -176,11 +176,12 @@ section{
     padding: 40px 0;
     background-color: black;
     color: white;
-    display: none;
+    /* display: none; */
 }
 #player{
     display: block;
-    background-color: white;
+    background: url(../CBstudio/load.png);
+    background-size: cover;
     width: 64vw;
     height: 36vw;
     margin: auto;

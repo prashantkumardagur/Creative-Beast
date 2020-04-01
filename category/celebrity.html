@@ -54,7 +54,16 @@
         </ul>
     </nav>
 
-    <header style="background: url(../Resources/backgrounds/bgtemp.jpg); background-size: cover;">
+    <header id="mob" style="background: url(../Resources/backgrounds/bgtemp.jpg); background-size: cover;">
+
+        <script>
+            if(screen.width < 500) {
+                var bg=document.getElementById("mob");
+                bg.style.background="url(../Resources/backgrounds/bgtemp.jpg)";
+                bg.style.backgroundSize="cover";
+            }
+        </script>
+
         <h1>CELEBRITY MANAGEMENT</h1>
         <p>
             Presence of a celebrity adds a unique spark to the event. Excellent and comfortable Celebrity management is a desired thing on every occasion. 

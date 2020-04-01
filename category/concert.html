@@ -54,7 +54,16 @@
         </ul>
     </nav>
 
-    <header style="background: url(../Resources/backgrounds/concert.jpg); background-size: cover;">
+    <header id="mob" style="background: url(../Resources/backgrounds/concert.jpg); background-size: cover;">
+
+        <script>
+            if(screen.width < 500) {
+                var bg=document.getElementById("mob");
+                bg.style.background="url(../Resources/backgrounds/concert-mob.jpg)";
+                bg.style.backgroundSize="cover";
+            }
+        </script>
+
         <h1>MUSIC CONCERTS</h1>
         <p>
             Music washes away dust from the soul of everyday life. A beautiful song full of intoxicating music with friends in the middle of the crowd 
