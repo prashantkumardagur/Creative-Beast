@@ -129,6 +129,7 @@ main h3{
 
     header{
         padding: 50px 5% 0 5%;
+        margin-bottom: 100px;
     }
     header h1{
         font-size: 30px;
