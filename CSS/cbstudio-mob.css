@@ -104,5 +104,12 @@
         margin-top: 30px;
     }
 
+    #banner{
+        width: 95%;
+        border-radius: 10px;
+    }
+    #banner h2{
+        font-size: 10px;
+    }
 
 }
