@@ -26,6 +26,7 @@
     text-decoration: none;
     text-align: center;
     outline: none;
+    transition: 1s ease;
 }
 .cardblock > a:hover{
     background-color: blue;
@@ -41,6 +42,7 @@
     box-shadow: 3px 3px 5px #00000080, -3px -3px 5px 1px #ffffff;
     border-radius: 20px;
     text-align: center;
+    transition: 0.3s ease;
 }
 .cards:visited{
     color: black;
@@ -81,6 +83,7 @@
     margin-top: 1vh;
     color: black;
     font-size: 14px;
+    transition: 0.2s ease;
 }
 .cards:hover h2 , .cards:hover button{
     color: #0652DD;

@@ -42,6 +42,7 @@ header{
     text-align: center;
     cursor: pointer;
     outline: none;
+    transition: 0.2s ease;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.75), -1px -1px 3px rgba(255, 255, 255, 0.75) ;
 }
 .hcontent a:hover{
@@ -90,6 +91,7 @@ header{
 #future{
     width: 40vw;
     padding-right: 5vw;
+    animation: 0.5s ease forwards comesleft;
 }
 #future h3{
     font-size: 18px;

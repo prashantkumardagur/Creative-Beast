@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Lobster+Two|Poppins:400,700&display=swap');
 
+html{
+    scroll-behavior: smooth;
+}
 body{
     background-color: #eeeeee;
     width: 100vw;

@@ -1,4 +1,6 @@
 
+/*----------------------------------------------------*/
+
 #eventNav h1{
     margin-left: 11vw;
     padding-top: 50px;
@@ -28,6 +30,7 @@
     height: 100%;
     width: 100%;
     border-radius: 10px;
+    transition: 0.1s ease;
 }
 .pemplate:hover{
     background-color: #00000080;
@@ -35,7 +38,6 @@
 .pemplate h3{
     margin: auto;
     text-align: center;
-    height: 90%;
     padding-top: 30%;
     color: white;
     text-shadow: 0 0 5px #000000;
