@@ -105,11 +105,12 @@ main h3{
 }
 .works{
     text-align: center;
+    padding-top: 20px;
 }
 .works p{
     text-align: center;
     font-size: 12px;
-    padding: 0 10px;
+    padding: 0 5px;
     padding-top: 5px;
 }
 .works div{
@@ -122,6 +123,12 @@ main h3{
     background-color: white;
     border-radius: 50%;
     color: #0652DD;
+}
+aside{
+    display: grid;
+    width: 80%;
+    margin: auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 /*----------------------------------------------------------------------*/
 
@@ -207,5 +214,12 @@ main h3{
         font-size: 20px;
         height: 40px;
         width: 40px;
+    }
+    aside{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        width: 90%;
+    }
+    .works{
+        width: 100%;
     }
 }
