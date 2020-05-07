@@ -1,116 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="CSS/navbar.css">
-    <link rel="stylesheet" href="CSS/footer.css">
-    <link rel="stylesheet" href="CSS/pemplate.css">
-    <link rel="stylesheet" href="CSS/cardblocks.css">
-    <link rel="stylesheet" href="CSS/main.css">
-
-    <link rel="icon" href="Resources/Logos/CBStudio-blue.png">
+    <meta name="description" content="This is your one destination to get an Event Management Service for any kind of event from Modelling Show, Concert, College Event to Wedding, Birthday etc. Based in Punjab India, We deliver our services to many states of India. Implementing your Creative thoughts into real action to help society with a Beast like passion, power and dedication by its spectacular work to remember forever.">
+    <meta name="keywords" content="Event, EMS, Wedding Planner, Modelling, Concert, Celebrity Management, Birthday Planner, College Events, Cultural Events, Creative Beast, Party planning, Planning, Organizer, Event Planner, Event Management, Lovely Professional University, LPU, Jalandhar">
     <title>Creative Beast EMS Pvt. Ltd. - Events management services</title>
+
+    <link rel="icon" href="/Logos/CBblue.png">
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" as="style">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/CSS/main.css">
+    <link rel="stylesheet" href="/CSS/pemplate.css">
+    <link rel="stylesheet" href="/CSS/cardblock.css">
+    <link rel="stylesheet" href="/CSS/home.css">
+    <link rel="stylesheet" href="/CSS/animate.css">
+
+    <script src="/JS/wow.min.js"></script>
+
+    <meta name="description">
 </head>
+<body onload="animate()">
 
-
-<body>
-
-    <div id="loading">
-        <!-- <img src="Resources/Logos/CBStudio-blue.png" alt="Creative Beast Logo"> -->
-        <h1>LOADING...</h1>
+    <div id="loader">
+        <div><i class="fa fa-spin fa-circle-o-notch" aria-hidden="true"></i></div>
     </div>
-    <nav>
-        <h1><a href="index.html"><img src="Resources/Logos/CBStudio.png" alt="Logo">Creative Beast</a></h1>
-        <div onclick="toggleNav()">
-            <span class="navDots"></span>
-            <span class="navDots"></span>
-            <span class="navDots"></span>
-        </div>
-        <ul id="navbox">
-            <div>
-                <form>
-                    <input type="text" placeholder="Search" aria-label="Search Box">
-                    <button type="submit"><i class="fa fa-search" aria-hidden="true" style="font-size: 16px;"></i></button>
-                </form>
-            </div>
-            <li><a href="CBStudios.html">CB Studios</a></li>
-            <li><a href="AllEvent.html">All Events</a></li>
-            <li><a href="AboutUs.html">About Us</a></li>
-        </ul>
+
+    <nav class="comesdown" style="animation-duration: 0.5s;">
+        <a href="/">
+            <img src="/Logos/CBwhite.png" alt="Creative Beast Logo">
+            <h1>Creative Beast</h1>
+        </a>
+        <aside id="navbox">
+            <a href="/CB-Studios/" class="navlink">CB Studio</a>
+            <a href="/All-Events/" class="navlink">All Events</a>
+            <a href="https://cbeastevents.blogspot.com/" class="navlink" target="_blank" rel="noopener">Blog</a>
+            <a href="/About-Us/" class="navlink">About Us</a>
+        </aside>
+        <button onclick="toggleNav()" aria-label="Expand NavBar"><span></span><span></span><span></span></button>
     </nav>
 
-    <header>
-        <div class="himg">
-            <img src="Resources/Logos/CBStudio.png" alt="Creative Beast Logo">
+    <header class="comesin" style="animation-delay: 0.5s;">
+        <div class="comesright" style="animation-delay: 0.5s; opacity: 0;">
+            <img src="/Logos/CBwhite.png" alt="Creative Beast - White Logo">
         </div>
-        <div class="hcontent">
+        <div class="comesleft" style="animation-delay: 0.5s;">
             <h1>Creative Beast</h1>
-            <p>Implementing your Creative thoughts into real action to help society with a Beast like passion, power and dedication
-                by its spectacular work to remember forever.
-            </p>
-            <h3>We Plan EVERYTHING that can bring you JOY </h3>
-            <a href="plan.html">PLAN your Event</a>
+            <p>Implementing your Creative thoughts into real action to help society with a Beast like passion, power and dedication by 
+                its spectacular work to remember forever.</p>
+            <blockquote>We Plan EVERYTHING that can bring you JOY</blockquote>
+            <a href="/Plan-Your-Event/" class="abutton">PLAN your Event</a>
         </div>
     </header>
 
-    <div id="eventNav">
-        <h1>Our Event Services You Can Trust On...</h1>
+    <div id="eventNav" class="comesup" style="opacity: 0; animation-delay: 1s;">
+        <h1>Our Event Services you can Trust on ...</h1>
         <section>
-            <a href="category/concert.html" style="background: url(Resources/Pemplates/concert.jpg); background-size: cover;">
-                <div class="pemplate">
-                    <h3>Music Concert</h3>
-                </div>
-            </a>    
-            <a href="category/collegeevent.html" style="background: url(Resources/Pemplates/college.jpg); background-size: cover;">    
-                <div class="pemplate">
-                    <h3>College Events</h3>
-                </div>
-            </a>    
-            <a href="category/modelling.html" style="background: url(Resources/Pemplates/modelling.jpg); background-size: cover;"> 
-                <div class="pemplate">
-                    <h3>Modelling Show</h3>
-                </div>
-            </a>    
-            <a href="category/birthday.html" style="background: url(Resources/Pemplates/birthday.jpg); background-size: cover;"> 
-                <div class="pemplate">
-                    <h3>Birthday Planner</h3>
-                </div>
-            </a>    
-            <a href="category/wedding.html" style="background: url(Resources/Pemplates/wedding.jpg); background-size: cover;"> 
-                <div class="pemplate">
-                    <h3>Wedding Planning</h3>
-                </div>
-            </a>    
-            <a href="category/anniversary.html" style="background: url(Resources/Pemplates/anniversary.jpg); background-size: cover;"> 
-                <div class="pemplate">
-                    <h3>Anniversary Planner</h3>
-                </div>
-            </a>    
-            <a href="category/cultural.html" style="background: url(Resources/Pemplates/cultural.jpg); background-size: cover;"> 
-                <div class="pemplate">
-                    <h3>Cultural Events</h3>
-                </div>
-            </a>    
-            <a href="category/celebrity.html" style="background: url(Resources/Pemplates/celeb.jpg); background-size: cover;"> 
-                <div class="pemplate">
-                    <h3>Celebrity Management</h3>
-                </div>
-            </a>    
+            <div class="pemplate" style="background: url(/Pemplates/concert.jpg); background-size: cover;">
+                <a href="/Event-Category/concert.html">Music Concert</a>
+            </div>
+            <div class="pemplate" style="background: url(/Pemplates/college.jpg); background-size: cover;">
+                <a href="/Event-Category/college-event.html">College Event</a>
+            </div>
+            <div class="pemplate" style="background: url(/Pemplates/modelling.jpg); background-size: cover;">
+                <a href="/Event-Category/modelling.html">Modelling Show</a>
+            </div>
+            <div class="pemplate" style="background: url(/Pemplates/birthday.jpg); background-size: cover;">
+                <a href="/Event-Category/birthday.html">Birthday Planning</a>
+            </div>
+            <div class="pemplate" style="background: url(/Pemplates/wedding.jpg); background-size: cover;">
+                <a href="/Event-Category/wedding.html">Wedding Planning</a>
+            </div>
+            <div class="pemplate" style="background: url(/Pemplates/anniversary.jpg); background-size: cover;">
+                <a href="/Event-Category/anniversary.html">Anniversary Planning</a>
+            </div>
+            <div class="pemplate" style="background: url(/Pemplates/cultural.jpg); background-size: cover;">
+                <a href="/Event-Category/cultural-event.html">Cultural Event</a>
+            </div>
+            <div class="pemplate" style="background: url(/Pemplates/celeb.jpg); background-size: cover;">
+                <a href="/Event-Category/celebrity-management.html">Celebrity Management</a>
+            </div>  
         </section>
     </div>
 
     <div id="upcoming">
-        <h1><span><i class="fa fa-heartbeat" aria-hidden="true"></i></span> Upcoming Event</h1>
+        <h1><span class="iconholder"><i class="fa fa-bullhorn" aria-hidden="true"></i></span>Upcoming Event</h1>
         <section>
             <div>
-                <img src="Event/Backgrounds/bycb-mob.jpeg" alt="Upcoming Event Image">
+                <img src="/Events/background/bycb-mob.jpeg" alt="Bring you childhood back, Upcoming event of Creative Beast EMS">
                 <h2>Bring Your Childhood Back</h2>
             </div>
-            <aside id="future">
+            <div class="wow comesleft">
                 <h3>ABOUT</h3>
                 <p>
                     The event is about relive the moments of our Childhood, as we always miss our childhood, in order to that we have plan for playing all the childhood 
@@ -121,47 +101,46 @@
                 <h3>VENUE</h3>
                 <p>Lovely Professional University.</p> 
                 <h3>FIXTURES</h3>
-                <p>Delayed ( Due to Lockdown ) </p>  
-                <a href="#">Register Now</a><br/>
-                <a href="Event/bycb.html">Know More</a>
-            </aside>
+                <p>Delayed ( Due to Lockdown )</p>
+                <a href="/Upcoming/bycb.html" class="abutton">Know More</a><br/>
+                <a href="/404.html" class="abutton" style="background-color: rgb(0, 180, 0);" 
+                    onmouseover="this.style.backgroundColor='rgb(0, 150, 0)'" onmouseout="this.style.backgroundColor='rgb(0, 180, 0)'">
+                    Register Now
+                </a>
+            </div>
         </section>
     </div>
 
     <div class="cardblock">
-        <h1>Recent Events</h1>
+        <h1 class="wow comesin">Recent Events</h1>
         <section>
-            <a class="cards" href="Event/unitednations.html">
-                <h4>MODELLING SHOW</h4>
-                <img src="Event/thumbnail/unitednations.jpeg" alt="united nations peagent event">
-                <h2>United Nations Peagent</h2>
-                <p>Lovely Professional University</p>
-                <p>1 Nov 2019 to 9 Nov 2019</p>
-                <button>KNOW MORE</button>
+            <a href="/Events/United-Nations-Pageant.html" class="cards">
+                <h3>MODELLING EVENT</h3>
+                <img src="/Events/thumbnails/UNP.jpeg" alt="United Nations Pageant">
+                <h2>United Nations Pageant</h2>
+                <p>Lovely Professional University<br/>1 Nov 2019 to 9 Nov 2019</p>
+                <button class="abutton" aria-hidden="true">Know More</button>
             </a>
-            <a class="cards" href="Event/doorbenninjashow.html">
-                <h4>CONCERT</h4>
-                <img src="Event/thumbnail/ninja.jpeg" alt="doorben ninja show">
-                <h2>Doorben Ninja Show</h2>
-                <p>Lovely Professional University</p>
-                <p>26 September 2019</p>
-                <button>KNOW MORE</button>
+            <a href="/Events/Doorbean-Ninja-Show.html" class="cards">
+                <h3>CONCERT</h3>
+                <img src="/Events/thumbnails/NinjaShow.jpeg" alt="Ninja Show at LPU">
+                <h2>Doorbean Ninja Show</h2>
+                <p>Lovely Professional University<br/>26 September 2019</p>
+                <button class="abutton" aria-hidden="true">Know More</button>
             </a>
-            <a class="cards" href="Event/fanfest.html">
-                <h4>COLLEGE EVENT</h4>
-                <img src="Event/thumbnail/fanfest.jpeg" alt="fanfest">
+            <a href="/Events/Fanfest.html" class="cards">
+                <h3>COLLEGE EVENT</h3>
+                <img src="/Events/thumbnails/Fanfest.jpeg" alt="Fanfest at LPU">
                 <h2>Fanfest</h2>
-                <p>Lovely Professional University</p>
-                <p>12 October 2019</p>
-                <button>KNOW MORE</button>
+                <p>Lovely Professional University<br/>12 October 2019</p>
+                <button class="abutton" aria-hidden="true">Know More</button>
             </a>
-            <a class="cards" href="Event/hunarreloaded.html">
-                <h4>CULTURAL EVENT</h4>
-                <img src="Event/thumbnail/hunarreloaded.jpeg" alt="hunar reloaded">
+            <a href="/Events/Hunar-Realoaded.html" class="cards">
+                <h3>TALENT SHOW</h3>
+                <img src="/Events/thumbnails/HunarReloaded.jpg" alt="Hunar Reloaded, Event at LPU">
                 <h2>Hunar Reloaded</h2>
-                <p>Lovely Professional University</p>
-                <p>3 Sept 2019 to 15 Oct 2019</p>
-                <button>KNOW MORE</button>
+                <p>Lovely Professional University<br/>3 Sept 2019 to 15 Oct 2019</p>
+                <button class="abutton" aria-hidden="true">Know More</button>
             </a>
         </section>
     </div>
@@ -172,7 +151,7 @@
             <main id="revMain">
                 <div class="review">
                     <div  class="reviewNamer">
-                        <img src="Resources/others/profileDP1.jpg" alt="person p1">
+                        <img src="/ReviewPhotos/profileDP1.jpg" alt="Akshay Dhawan in LPU">
                         <div>
                             <h2>Mr. Akshay Dhawan ( Rapper )</h2>
                             <pre>Winner of Reality Show - " Dil hai Hindustani 2 "</pre>
@@ -188,7 +167,7 @@
                 </div>
                 <div class="review">
                     <div  class="reviewNamer">
-                        <img src="Resources/others/profileDP2.jpg" alt="person p2">
+                        <img src="/ReviewPhotos/profileDP2.jpg" alt="Sumit Saini in LPU">
                         <div>
                             <h2>Mr. Sumit Saini ( Singer )</h2>
                             <pre>Winner of Reality Show - " The Voice "</pre>
@@ -205,7 +184,7 @@
                 </div>
                 <div class="review">
                     <div  class="reviewNamer">
-                        <img src="Resources/others/profileDP3.jpeg" alt="person p3">
+                        <img src="/ReviewPhotos/profileDP3.jpeg" alt="Chetan Salunke in LPU">
                         <div>
                             <h2>Chetan Salunke ( Dancer )</h2>
                             <pre>Winner of Reality Show - " Dance+ 4 "</pre>
@@ -230,87 +209,75 @@
     </div>
 
     <div class="cardblock">
-        <h1>Our past Events</h1>
+        <h1 class="wow comesin">Our Past Events</h1>
         <section>
-            <a class="cards" href="Event/unitednations.html">
-                <h4>MODELLING SHOW</h4>
-                <img src="Event/thumbnail/unitednations.jpeg" alt="united nations peagent event">
-                <h2>United Nations Peagent</h2>
-                <p>Lovely Professional University</p>
-                <p>1 Nov 2019 to 9 Nov 2019</p>
-                <button>KNOW MORE</button>
+            <a href="/Events/United-Nations-Pageant.html" class="cards">
+                <h3>MODELLING EVENT</h3>
+                <img src="/Events/thumbnails/UNP.jpeg" alt="United Nations Pageant">
+                <h2>United Nations Pageant</h2>
+                <p>Lovely Professional University<br/>1 Nov 2019 to 9 Nov 2019</p>
+                <button class="abutton" aria-hidden="true">Know More</button>
             </a>
-            <a class="cards" href="Event/fanfest.html">
-                <h4>COLLEGE EVENT</h4>
-                <img src="Event/thumbnail/fanfest.jpeg" alt="fanfest">
+            <a href="/Events/Fanfest.html" class="cards">
+                <h3>COLLEGE EVENT</h3>
+                <img src="/Events/thumbnails/Fanfest.jpeg" alt="Fanfest">
                 <h2>Fanfest</h2>
-                <p>Lovely Professional University</p>
-                <p>12 October 2019</p>
-                <button>KNOW MORE</button>
+                <p>Lovely Professional University<br/>12 October 2019</p>
+                <button class="abutton" aria-hidden="true">Know More</button>
             </a>
-            <a class="cards" href="Event/hunarreloaded.html">
-                <h4>CULTURAL EVENT</h4>
-                <img src="Event/thumbnail/hunarreloaded.jpeg" alt="hunar reloaded">
-                <h2>Hunar Reloaded</h2>
-                <p>Lovely Professional University</p>
-                <p>3 Sept 2019 to 15 Oct 2019</p>
-                <button>KNOW MORE</button>
-            </a>
-            <a class="cards" href="Event/doorbenninjashow.html">
-                <h4>CONCERT</h4>
-                <img src="Event/thumbnail/ninja.jpeg" alt="doorben ninja show">
-                <h2>Doorben Ninja Show</h2>
-                <p>Lovely Professional University</p>
-                <p>26 September 2019</p>
-                <button>KNOW MORE</button>
-            </a>
-        </section>
-        <section id="compOnly">
-            <a class="cards" href="Event/letsnacho.html">
-                <h4>CULTURAL EVENT</h4>
-                <img src="Event/thumbnail/letsnacho.jpeg" alt="lets nacho">
+            <a href="/Events/Lets-Nacho.html" class="cards">
+                <h3>DANCE SHOW</h3>
+                <img src="/Events/thumbnails/LetsNacho.jpeg" alt="Let's Nacho">
                 <h2>Let's Nacho</h2>
-                <p>Lovely Professional University</p>
-                <p>12 April 2019</p>
-                <button>KNOW MORE</button>
+                <p>Lovely Professional University<br/>12 April 2019</p>
+                <button class="abutton" aria-hidden="true">Know More</button>
             </a>
-            <a class="cards" href="Event/inferno.html">
-                <h4>COLLEGE EVENT</h4>
-                <img src="Event/thumbnail/inferno.jpg" alt="inferno event">
-                <h2>Inferno</h2>
-                <p>Lovely Professional University</p>
-                <p>14 February 2019</p>
-                <button>KNOW MORE</button>
-            </a>
-            <a class="cards" href="Event/bingocomedy.html">
-                <h4>COLLEGE EVENT</h4>
-                <img src="Event/thumbnail/bingocomedy.jpeg" alt="bingo comedy adda">
+            <a href="/Events/Bingo-Comedy-Adda.html" class="cards">
+                <h3>COMEDY SHOW</h3>
+                <img src="/Events/thumbnails/BingoComedy.jpg" alt="Bingo Comedy Adda">
                 <h2>Bingo Comedy Adda</h2>
-                <p>Lovely Professional University</p>
-                <p>26 April 2019</p>
-                <button>KNOW MORE</button>
+                <p>Lovely Professional University<br/>26 April 2019</p>
+                <button class="abutton" aria-hidden="true">Know More</button>
+            </a> 
+            <a href="/Events/Hunar-Realoaded.html" class="cards">
+                <h3>TALENT SHOW</h3>
+                <img src="/Events/thumbnails/HunarReloaded.jpg" alt="Hunar Reloaded">
+                <h2>Hunar Reloaded</h2>
+                <p>Lovely Professional University<br/>3 Sept 2019 to 15 Oct 2019</p>
+                <button class="abutton" aria-hidden="true">Know More</button>
             </a>
-            <a class="cards" href="Event/bharatsundari.html">
-                <h4>CULTURAL EVENT</h4>
-                <img src="Event/thumbnail/bharatsundari.jpeg" alt="bahart sundari event">
+            <a href="/Events/Doorbean-Ninja-Show.html" class="cards">
+                <h3>CONCERT</h3>
+                <img src="/Events/thumbnails/NinjaShow.jpeg" alt="Doorbean Ninja Show">
+                <h2>Doorbean Ninja Show</h2>
+                <p>Lovely Professional University<br/>26 September 2019</p>
+                <button class="abutton" aria-hidden="true">Know More</button>
+            </a>
+            <a href="/Events/Inferno.html" class="cards">
+                <h3>CULTURAL EVENT</h3>
+                <img src="/Events/thumbnails/Inferno.jpg" alt="Inferno">
+                <h2>Inferno</h2>
+                <p>Lovely Professional University<br/>14 February 2019</p>
+                <button class="abutton" aria-hidden="true">Know More</button>
+            </a>
+            <a href="/Events/Bharat-Sundari.html    " class="cards">
+                <h3>MODELLING SHOW</h3>
+                <img src="/Events/thumbnails/BharatSundari.jpeg" alt="Bharat Sundari">
                 <h2>Bharat Sundari</h2>
-                <p>Lovely Professional University</p>
-                <p>10 Mar 2018 to 17 Mar 2018</p>
-                <button>KNOW MORE</button>
+                <p>Lovely Professional University<br/>10 Mar 2018 to 17 Mar 2018</p>
+                <button class="abutton" aria-hidden="true">Know More</button>
             </a>
         </section>
-        <a href="AllEvent.html">Show all Events</a>
+        <div><a href="/All-Events/" class="abutton">Show All Events</a></div>
     </div>
 
     <footer>
-        <div id="footerLogo">
-            <img src="Resources/Logos/CBStudio-blue.png" alt="Creative beast logo">
-        </div>
+        <div><img src="/Logos/CBblue.png" alt="Creative Beast Logo"></div>
         <h1>Creative Beast</h1>
-        <h3>-Turning Small Ideas Into BIG...</h3>
+        <blockquote>- Turning Small Ideas Into BIG -</blockquote>
         <hr/>
         <section>
-            <p>
+            <article>
                 Creative Beast event management services is one of the startup which grew from being a leading student organization in 
                 Lovely Professional University🎓 where we bring brilliant and innovative minds together to stand, build and create.
                 We organized various cultural events in LPU, be it a University level, national level or an International level.
@@ -318,28 +285,45 @@
                 We have set standards for the works we have done in the campus.
                 We believe that the team work is something which gives the organization a name and fame for the events that 
                 are organised and just to let you know, we put our heart out for accomplishing any event.
-            </p>
-            <div id="followLinks">
+            </article>
+            <div class="followLinks">
                 <h2>Follow Us On</h2>
                 <div>
-                    <a href="https://m.facebook.com/CreativeBeastLPU/"><i class="fa fa-facebook-square" aria-hidden="true" style="color: #0625dd;"></i></a>
-                    <a href="https://instagram.com/creativebeastofficial?igshid=b4iuds3cauic"><i class="fa fa-instagram" aria-hidden="true" style="color: #CF075E;"></i></a>
-                    <a href="https://www.youtube.com/channel/UCiHXv7Lruf9vXLBteBP3QOA"><i class="fa fa-youtube-play" aria-hidden="true" style="color: #ff0000;"></i></a>
-                    <a href="https://www.linkedin.com/in/creative-beast-705725192"><i class="fa fa-linkedin-square" aria-hidden="true" style="color: #0077B5;"></i></a>
-                    <a href="https://twitter.com/CreativebeastE1?s=09"><i class="fa fa-twitter-square" aria-hidden="true" style="color: #2CAAE1;"></i></a>
+                    <a aria-label="Facebook link" href="https://m.facebook.com/CreativeBeastLPU/"><i class="fa fa-facebook-square" aria-hidden="true" style="color: #0625dd;"></i></a>
+                    <a aria-label="Instagram link" href="https://instagram.com/creativebeastofficial?igshid=b4iuds3cauic"><i class="fa fa-instagram" aria-hidden="true" style="color: #CF075E;"></i></a>
+                    <a aria-label="Youtube link" href="https://www.youtube.com/channel/UCiHXv7Lruf9vXLBteBP3QOA"><i class="fa fa-youtube-play" aria-hidden="true" style="color: #ff0000;"></i></a>
+                    <a aria-label="LinkedIn link" href="https://www.linkedin.com/in/creative-beast-705725192"><i class="fa fa-linkedin-square" aria-hidden="true" style="color: #0077B5;"></i></a>
+                    <a aria-label="Twitter link" href="https://twitter.com/CreativebeastE1?s=09"><i class="fa fa-twitter-square" aria-hidden="true" style="color: #2CAAE1;"></i></a>
                 </div>
             </div>
         </section>
-        <div id="footerContact">
-            <h2>Contact Us</h2>
-            <p><span>thecreativebeastlpu@gmail.com</span><span>+91 (IND) 8360274102, 8847578551</span></p>
-            <p id="copyright">© Copyright 2020 creativebeastevents.com (Creative Beast EMS Pvt. Ltd. - Events management services) - All Rights Reserved</p>
-        </div>
+        <h2>Contact Us</h2>
+        <p>thecreativebeastlpu@gmail.com<span></span>+91 (IND) 8360274102, 8847578551</p>
+        <p class="copyright">
+            © Copyright 2020 creativebeastevents.com ( Creative Beast EMS Pvt. Ltd. - Events management services ) - All Rights Reserved
+        </p>
+        <button id="BtnToTop" class="iconholder" onclick="topFunction()" aria-label="Button to navigate to top of page"><i class="fa fa-arrow-up" aria-hidden="true"></i></button>
     </footer>
 
+    <script src="/JS/navbar.js"></script>
+    <script src="/JS/review.js"></script>
+    <script src="/JS/animate.js"></script>
 
-    <script src="js/main.js"></script>
-    <script src="js/nav.js"></script>
+    <script id="topFunction">
+        BtnToTop = document.getElementById("BtnToTop");
+        window.onscroll = function() { scrollFunction()};
 
+        function scrollFunction() {
+          if ((document.body.scrollTop > 700 || document.documentElement.scrollTop > 700) && window.innerWidth>500 ) {
+            BtnToTop.style.display = "flex";
+          } else {
+            BtnToTop.style.display = "none";
+          }
+        }
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+    </script>
 </body>
 </html>

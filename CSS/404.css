@@ -1,0 +1,46 @@
+main{
+    margin-top: 100px;
+    text-align: center;
+}
+main img{
+    display: inline-block;
+    height: 40vh;
+}
+main .abutton{
+    display: inline-flex;
+    align-items: center;
+    padding: 5px;
+}
+main .iconholder{
+    height: 40px; width: 40px;
+    font-size: 30px;
+    color: black;
+    display: flex;
+}
+main h1{
+    padding-bottom: 50px;
+}
+main h2{
+    display: block;
+    font-size: 20px;
+    padding: 0 10px;
+}
+@media screen and (max-width: 500px){
+    main{
+        margin-top: 80px;
+    }
+    main img{
+        height: auto;
+        width: 90%;
+    }
+    main h1{
+        font-size: 26px;
+    }
+    main .abutton h2{
+        font-size: 16px;
+    }
+    main .iconholder{
+        height: 30px; width: 30px;
+        font-size: 24px;
+    }
+}

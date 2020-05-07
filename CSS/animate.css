@@ -1,0 +1,91 @@
+.animation1{
+    animation-name: comesup;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+@keyframes comesup{
+    0%{
+        opacity: 0;
+        transform: translateY(100%);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animation2{
+    animation-name: comesdown;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+@keyframes comesdown{
+    0%{
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animation3{
+    animation-name: comesleft;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+@keyframes comesleft{
+    0%{
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.animation4{
+    animation-name: comesright;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+@keyframes comesright{
+    0%{
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.animation5{
+    animation-name: comesin;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+@keyframes comesin{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.animation6{
+    animation-name: rotates;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+@keyframes rotates{
+    0%{
+        transform: rotate(-360deg);
+    }
+    100%{
+        transform: rotate(0);
+    }
+}

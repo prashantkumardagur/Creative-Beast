@@ -1,0 +1,228 @@
+header{
+    display: grid;
+    grid-template-columns: 3fr 5fr;
+    margin-top: 50px;
+    background: url(/Backgrounds/mainbg.jpg);
+    background-size: cover;
+    padding: 8vh 6vw;
+    color: white;
+    text-shadow: 0 0 10px black;
+    opacity: 0;
+}
+header img{
+    width: 20vw;
+    margin: auto;
+}
+header h1{
+    font-family: 'lobster two', Arial, Helvetica, sans-serif;
+    font-size: 60px;
+}
+header p{
+    font-size: 18px;
+    padding: 20px 0;
+}
+header blockquote{
+    font-size: 28px;
+    font-weight: bold;
+    padding: 10px 0 20px 0;
+}
+header a{
+    padding: 10px 50px;
+    font-size: 20px;
+}
+/*----------------------------------*/
+#upcoming{
+    background-color: #111111;
+    color: white;
+    padding: 5vh 5vw;
+}
+#upcoming h1{
+    font-size: 36px;
+    display: flex;
+    align-content: center;
+}
+#upcoming .iconholder{
+    color: #f00;
+    height: 60px; width: 60px;
+    margin-right: 10px;
+    font-size: 40px;
+}
+#upcoming section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 5vh;
+}
+#upcoming img{
+    width: 100%;
+}
+#upcoming h2{
+    text-align: center;
+    padding-top: 3vh;
+    font-size: 40px;
+}
+#upcoming div:nth-of-type(2){
+    padding-left: 4vw;
+}
+#upcoming h3{
+    color: #0652dd;
+}
+#upcoming p{
+    font-size: 14px;
+    padding-bottom: 20px;
+    text-align: justify;
+}
+#upcoming .abutton{
+    padding: 10px 40px;
+    margin-bottom: 20px;
+}
+/*--------------------------------------*/
+#reviews{
+    background: url(/Backgrounds/review.jpg);
+    background-size: cover;
+    color: white;
+    padding: 5vh 15vw;
+    text-shadow: 0 0 10px #000000;
+}
+#reviews h1{
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+.reviewNamer{
+    padding: 3vh 0;
+    display: grid;
+    grid-template-columns: 1fr 8fr;
+}
+.reviewNamer img{
+    width: 5vw;
+    height: 5vw;
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+}
+#reviews p{
+    font-size: 16px;
+    text-align: justify;
+    text-shadow: 0 0 5px #000000;
+    padding: 0 10px;
+}
+#reviews aside{
+    text-align: center;
+    padding-top: 2vh;
+}
+.revNav{
+    display: inline-block;
+    width: 10px;
+    margin: 1vh;
+    height: 10px;
+    border-radius: 50%;
+    background-color: white;
+    cursor: pointer;
+}
+#reviews section{
+    overflow-x: hidden;
+    width: 100%;
+}
+#revMain{
+    width: 300%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 350px;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+}
+/*--------------------------------------*/
+@media screen and (max-width: 500px){
+    header{
+        grid-template-columns: 1fr;
+        padding: 5vh 10vw;
+        text-align: center;
+    }
+    header img{
+        width: 30vw;
+    }
+    header h1{
+        font-size: 44px;
+    }
+    header p{
+        font-size: 13px;
+        padding: 15px 0;
+    }
+    header blockquote{
+        font-size: 16px;
+    }
+    header a{
+        padding: 6px 30px;
+        font-size: 16px;
+    }
+    /*--------------------------*/
+    #upcoming{
+        padding: 5vh 0;
+        text-align: center;
+    }
+    #upcoming h1{
+        font-size: 24px;
+        justify-content: center;
+    }
+    #upcoming .iconholder{
+        font-size: 24px;
+        height: 40px; width: 40px;
+    }
+    #upcoming section{
+        grid-template-columns: 1fr;
+    }
+    #upcoming img{
+        width: 90%;
+        border-radius: 10px;
+        margin: auto;
+    }
+    #upcoming h2{
+        font-size: 20px;
+        padding-bottom: 30px;
+    }
+    #upcoming h3{
+        font-size: 17px;
+    }
+    #upcoming p{
+        font-size: 13px;
+        text-align: center;
+    }
+    #upcoming div:nth-of-type(2){
+        padding: 0 5vw;
+    }
+    #upcoming .abutton{
+        padding: 5px 30px;
+    }
+    /*--------------------------------*/
+    #reviews{
+        padding: 5vh 8vw;
+    }
+    #reviews h1{
+        font-size: 6vw;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+    .reviewNamer{
+        padding: 1vh;
+        text-align: center;
+        grid-template-columns: 1fr;
+        grid-template-rows: 3fr 2fr;
+    }
+    .reviewNamer img{
+        display: block;
+        width: 20vw;
+        height: 20vw;
+        margin: auto;
+    }
+    .reviewNamer pre{
+        font-size: 13px;
+    }
+    .reviewNamer h2{
+        font-size: 18px;
+    }
+    #reviews p{
+        font-size: 12px;
+    }
+    #revMain{
+        height: 460px;
+    }
+
+}

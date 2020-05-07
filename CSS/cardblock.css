@@ -1,0 +1,120 @@
+.cardblock{
+    padding: 10vh 5vw;
+}
+.cardblock h1{
+    font-size: 44px;
+    text-align: center;
+}
+.cardblock section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+}
+
+.cards{
+    margin: auto;
+    margin-top: 7vh;
+    width: 85%;
+    background-color: #eeeeee;
+    box-shadow: 0 0 20px #01215c50;
+    border-radius: 5px;
+    padding: 20px 0;
+    cursor: default;
+    transition: 0.4s;
+}
+.cards img{
+    width: 90%;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+.cards h3{
+    font-weight: normal;
+    font-size: 16px;
+    color: #444;
+}
+.cards h2{
+    font-size: 20px;
+    transition: inherit;
+}
+.cards p{
+    font-size: 13px;
+    padding: 10px 0;
+}
+.cards .abutton{
+    padding: 5px 30px;
+    background-color: #eeeeee;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+}
+.cards .abutton:hover{
+    background-color: #0652dd;
+    color: white;
+}
+.cards:hover{
+    background-color: white;
+    box-shadow: 0 0 40px #0652dd80;
+    transform: scale(1.03);
+}
+.cards:hover h2{
+    color: #0652dd;
+}
+.cardblock > div{
+    text-align: center;
+    padding-top: 50px;
+}
+.cardblock > div > .abutton{
+    padding: 10px 50px;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 500px){
+    .cardblock{
+        padding: 50px 0;
+        text-align: center;
+    }
+    .cardblock h1{
+        font-size: 26px;
+    }
+    .cardblock section{
+        grid-template-columns: 1fr;
+    }
+    .cards{
+        display: grid;
+        grid-template-columns: 2fr 3fr;
+        grid-template-areas: "image content1" "image content2" "image content3";
+        column-gap: 10px;
+        width: 94%;
+        padding: 5px;
+        border-radius: 10px;
+        text-align: left;
+        margin-top: 2vh;
+    }
+    .cards img{
+        grid-area: image;
+        width: 100%;
+        height: 95%;
+        max-height: 25vw;
+        margin: auto 0;
+
+    }
+    .cards h3{
+        grid-area: content1;
+        font-size: 14px;
+        padding-top: 5px;
+    }
+    .cards h2{
+        grid-area: content2;
+        font-size: 17px;
+        padding: 3px 0;
+    }
+    .cards p{
+        grid-area: content3;
+        padding: 0;
+        font-size: 11px;
+        padding-bottom: 5px;
+    }
+    .cards .abutton{
+        display: none;
+    }
+}

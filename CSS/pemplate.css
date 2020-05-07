@@ -1,77 +1,55 @@
-
-/*----------------------------------------------------*/
-
-#eventNav h1{
-    margin-left: 11vw;
-    padding-top: 50px;
-    padding-bottom: 30px;
+#eventNav{
+    padding: 60px 10vw 80px 10vw;
 }
-
+#eventNav h1{
+    font-size: 36px;
+}
 #eventNav section{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    width: 80%;
-    margin: auto;
-    padding-bottom: 50px;
 }
-#eventNav a{
-    text-decoration: none;
-    display: block;
-    outline: none;
-    width: 90%;
-    height: 120px;
-    margin: auto;
-    border-radius: 10px;
-    margin-bottom: 30px;
-}
-
 .pemplate{
-    height: 100%;
-    width: 100%;
-    border-radius: 10px;
-    transition: 0.1s ease;
+    color: white;
+    border-radius: 20px;
+    width: 90%;
+    height: 15vh;
+    margin-top: 30px;
 }
-.pemplate:hover{
+.pemplate a{
+    display: flex;
+    height: 100%; width: 100%;
+    border-radius: 20px;
+    transition: 0.2s;
+    font-size: 20px;
+    font-weight: bold;
+    align-items: flex-end;
+    justify-content: center;
+    text-shadow: 0 0 10px black; 
+    text-align: center;
+}
+.pemplate a:hover{
     background-color: #00000080;
 }
-.pemplate h3{
-    margin: auto;
-    text-align: center;
-    padding-top: 30%;
-    color: white;
-    text-shadow: 0 0 5px #000000;
-}
-
-
-/*-----------------------------------------------------------------*/
-
-
+/*-----------------------------------*/
 @media screen and (max-width: 500px){
-    
-    #eventNav h1{
-        margin: auto;
-        width: 80%;
-        font-size: 20px;
-        padding: 30px 0 10px 0;
+    #eventNav{
+        padding: 50px 4vw;
     }
-
+    #eventNav h1{
+        font-size: 24px;
+        padding: 0 6vw;
+        text-align: center;
+    }
     #eventNav section{
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
-        width: 90%;
-        padding-bottom: 30px;
     }
-
-    #eventNav a{
-        height: 80px;
-        margin-bottom: 10%;
+    .pemplate{
+        margin: 15px auto auto;
+        height: 12vh;
+        border-radius: 12px;
     }
-
-    .pemplate h3{
-        padding: 0;
-        font-size: 15px;
-        padding-top: 20%;        
+    .pemplate a{
+        font-size: 16px;
+        text-shadow: 0 0 5px black;
     }
-
 }

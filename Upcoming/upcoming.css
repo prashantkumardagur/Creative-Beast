@@ -1,0 +1,37 @@
+main h6{
+    font-size: 16px;
+    padding: 20px 0 5px 0;
+}
+main article{
+    font-family: 'lobster two', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    color: #0652dd;
+}
+main > span{
+    font-style: italic;
+}
+main h1{
+    padding-top: 20px;
+}
+main > .abutton{
+    padding: 10px 50px;
+    font-size: 20px;
+    margin: 20px;
+}
+
+@media screen and (max-width: 500px){
+    main h6{
+        font-size: 13px;
+    }
+    main article{
+        font-size: 26px;
+    }
+    main > span{
+        font-size: 12px;
+    }
+    main > .abutton{
+        font-size: 16px;
+        padding: 6px 30px;
+    }
+}

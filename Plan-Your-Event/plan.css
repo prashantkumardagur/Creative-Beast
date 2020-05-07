@@ -1,0 +1,182 @@
+header{
+    background: url(/Backgrounds/planbg.jpg);
+    background-size: cover;
+    margin-top: 50px;
+    color: white;
+    text-align: center;
+    text-shadow: 0 0 10px black;
+    padding: 0 10vw;
+}
+header h1{
+    font-size: 50px;
+    padding-top: 50px;
+}
+header p{
+    padding: 5px;
+}
+header section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 200px;
+}
+.contactdiv{
+    width: 80%;
+    margin: auto;
+    background-color: #B4DCFF;
+    margin-top: 100px;
+    color: black;
+    text-shadow: none;
+    border-top: 5px solid #0652dd;
+    padding-bottom: 30px;
+}
+.contactdiv div{
+    height: 40px;
+}
+.contactdiv .iconholder{
+    height: 80px;
+    width: 80px;
+    transform: translateY(-50%);
+    color: #0652dd;
+    font-size: 50px;
+}
+.contactdiv h2{
+    padding-top: 10px;
+}
+.contactdiv p{
+    padding: 5px 10%;
+    margin-bottom: 30px;
+}
+.contactdiv .abutton{
+    padding: 8px 60px;
+}
+
+form{
+    margin: auto;
+    margin-top: 350px;
+    background-color: #0652dd;
+    color: white;
+    width: 80vw;
+    padding: 50px 10vw;
+    box-sizing: border-box;
+    border-radius: 40px;
+}
+form h1{
+    text-align: center;
+}
+form section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 30px 0;
+}
+form label{
+    display: block;
+    padding: 20px 0 3px 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+form textarea{
+    width: 100%;
+    resize: none;
+    height: 60%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    overflow-y: scroll;
+}
+form input{
+    width: 90%;
+    border-radius: 20px;
+    padding: 9px 15px;
+}
+form ::-webkit-scrollbar{
+    width: 6px;
+    cursor: default;
+}
+form ::-webkit-scrollbar-thumb{
+    background: #0652dd; 
+    border-radius: 3px;
+}
+form ::-webkit-scrollbar-thumb:hover{
+    background: #033eab;
+}
+form input[type="submit"]{
+    display: block;
+    width: auto;
+    margin: auto;
+    padding: 8px 50px;  
+    background: none;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 30px;
+    color: white;
+    transition: 0.2s;
+    border: 2px solid white;
+}
+form input[type="submit"]:hover{
+    background-color: white;
+    color: #0652dd;
+}
+/*-------------------------------*/
+@media screen and (max-width: 500px){
+    header{
+        padding: 0 5vw;
+    }
+    header h1{
+        font-size: 30px;
+        padding: 30px 0 20px 0;
+    }
+    header p{
+        font-size: 14px;
+        padding: 10px 0;
+    }
+    header section{
+        grid-template-columns: 1fr;
+    }
+    .contactdiv{
+        width: 90%;
+        margin-top: 80px;
+    }
+    .contactdiv h2{
+        font-size: 20px;
+    }
+    .contactdiv h3{
+        font-size: 17px;
+    }
+    .contactdiv p{
+        margin-bottom: 20px;
+    }
+    .contactdiv .abutton{
+        padding: 6px 40px;
+    }
+    /*------------------------*/
+    form {
+        margin-top: 700px;
+        width: 95%;
+        border-radius: 10px;
+        padding: 30px 5vw;
+        text-align: center;
+    }
+    form h1{
+        font-size: 24px;
+    }
+    form section{
+        grid-template-columns: 1fr;
+        margin: 10px 0;
+    }
+    form label{
+        padding: 15px 0 3px 0;
+        font-size: 16px;
+    }
+    form input{
+        text-align: center;
+        font-size: 14px;
+        padding: 5px 10px;
+    }
+    form textarea{
+        height: 200px;
+        font-size: 14px;
+    }
+    form input[type="submit"]{
+        padding: 5px 40px;
+    }
+}

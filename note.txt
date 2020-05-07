@@ -1,0 +1,5 @@
+media 850px 1200px
+photo
+hall of fame
+aria-label
+outlinks

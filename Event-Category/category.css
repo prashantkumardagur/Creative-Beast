@@ -1,0 +1,229 @@
+header{
+    margin-top: 50px;
+    color: white;
+    text-align: center;
+    text-shadow: 0 0 10px black;
+}
+header h1{
+    font-size: 50px;
+    padding-top: 50px;
+}
+header article{
+    padding: 20px 10vw;
+}
+header .abutton{
+    padding: 10px 60px;
+    margin: 30px;
+    font-size: 20px;
+    box-shadow: 0 0 20px black;
+}
+header div{
+    height: 50px;
+}
+header img{
+    height: 100px;
+    margin: auto;
+}
+.cardblock{
+    margin-top: 50px;
+}
+/*------------------------*/
+main{
+    margin: 80px 10vw;
+    border: 5px solid #0652dd;
+    border-radius: 40px;
+}
+main h1{
+    width: fit-content;
+    max-width: 70vw;
+    padding: 0 60px;
+    margin: auto;
+    text-align: center;
+    transform: translateY(-50%);
+    background-color: #eeeeee;
+    font-size: 40px;
+}
+main section{
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    padding: 30px 5%;
+}
+main img{
+    width: 95%;
+}
+main article{
+    font-size: 15px;
+    text-align: justify;
+    padding: 10px 0;
+}
+main p{
+    padding-top: 12px;
+    transform: translateX(-23px);
+    display: flex;
+    align-items: center;
+}
+main aside{
+    margin-left: 50px;
+    padding-top: 10px;
+    border-left: 2px solid #0652dd ;
+}
+main aside .iconholder{
+    background-color: white;
+    height: 40px; width: 40px;
+    border: 2px solid #0652dd;
+    font-size: 28px;
+    margin-right: 10px;
+}
+main h3{
+    font-size: 22px;
+}
+.services{
+    text-align: center;
+    padding-top: 60px;
+}
+.services section{
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    padding: 40px 10% 60px;
+    column-gap: 5px;
+}
+.works h5{
+    font-size: 12px;
+    font-weight: normal;
+    padding: 5px 0;
+}
+.works .iconholder{
+    height: 60px; width: 60px;
+    font-size: 26px;
+    color: #0652dd;
+}
+/*-------------------------------------------*/
+.wallslider{
+    margin: 60px auto;
+    overflow-x: hidden;
+    width: 80vw;
+}
+#theWall{
+    background-color: black;
+    height: 60vh;
+    width: 400vw;
+    transition: 1s ease;
+    display: flex;
+}
+.wallslides{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: flex-end;
+    color: white;
+    box-sizing: border-box;
+    text-shadow: 0 0 10px black;
+}
+.wallslides div{
+    background: #00000050;
+    padding: 50px 50px 50px 100px;
+    border-radius: 550px 0 0 550px;
+    text-align: right;
+}
+.wallslides h4{
+    font-size: 30px;
+    font-weight: normal;
+}
+.wallslides h5{
+    font-size: 60px;
+    font-family: 'lobster two', Arial, Helvetica, sans-serif;
+}
+/*---------------------------------------------*/
+@media screen and (max-width: 500px){
+    header h1{
+        font-size: 30px;
+    }
+    header article{
+        font-size: 14px;
+        padding: 20px 5vw;
+    }
+    header .abutton{
+        font-size: 16px;
+        padding: 6px 40px;
+    }
+    header div{
+        height: 40px;
+    }
+    header img{
+        height: 80px;
+    }
+    /*-------------------*/
+    main{
+        margin: 50px 3vw;
+        border-radius: 20px;
+        border-width: 3px;
+    }
+    main h1{
+        font-size: 20px;
+        padding: 0 15px;
+    }
+    main section{
+        grid-template-columns: 1fr;
+        padding: 15px 4%;
+    }
+    main img{
+        display: none;
+    }
+    main h2{
+        font-size: 17px;
+        text-align: center;
+    }
+    main article{
+        font-size: 12px;
+        text-align: center;
+    }
+    main aside{
+        margin-left: 10px;
+    }
+    main aside .iconholder{
+        height: 30px; width: 30px;
+        font-size: 20px;
+    }
+    main p{
+        font-size: 12px;
+        transform: translateX(-18px);
+        padding-top: 10px;
+    }
+    main h3{
+        padding: 0 20px;
+        font-size: 16px;
+    }
+    .services{
+        padding-top: 40px;
+    }
+    .services section{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        padding: 30px 5% 40px;
+    }
+    .services h5{
+        font-size: 10px;
+    }
+    .services .iconholder{
+        height: 40px; width: 40px;
+        font-size: 22px;
+    }
+    /*-------------------*/
+    .wallslider{
+        width: 100vw;
+    }
+    #theWall{
+        width: 500vw;
+        height: 40vh;
+    }
+    .wallslides div{
+        padding: 20px 20px 20px 50px;
+        border-radius: 100px 0 0 100px;
+    }
+    .wallslides h4{
+        font-size: 16px;
+    }
+    .wallslides h5{
+        font-size: 26px;
+    }
+}
