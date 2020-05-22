@@ -18,3 +18,19 @@ User-agent: *
 Disallow: /Admin
 
 Sitemap: https://www.creativebeastevents.com/sitemap.xml
+
+Services we deal in....
+Birthday Celebration
+Anniversary ""
+Wedding Organiser
+
+Dashboards
+
+Profile
+Name
+email
+contact no.
+
+Communication skills
+Content
+
